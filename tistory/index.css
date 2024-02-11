@@ -165,7 +165,7 @@ html, body{height:100%;min-height:100%}
 .tt_category .sub_category_list .link_sub_item::before { content:"- ";}
 .tt_category .link_tit:hover,
 .tt_category .category_list .link_item:hover,
-.tt_category .sub_category_list .link_sub_item:hover { color:darkgreen;text-decoration:underline }
+.tt_category .sub_category_list .link_sub_item:hover { text-decoration:underline }
 .link_guestbook { display:none }
 
 .wrap_etc{display:none;float:left}
@@ -356,8 +356,8 @@ html, body{height:100%;min-height:100%}
 .list_content .thumbnail_post { display:none; float:right; width:150px; height:150px; margin:6px 0 5px 30px }
 .list_content .link_post{display:block;overflow:hidden;text-decoration:none}
 .list_content .link_post:hover .tit_post {color: darkgreen}
-.list_content .tit_post{display:block;font-weight:normal;font-size:26px;line-height:40px}
-.list_content .txt_post{display:-webkit-box;display:-ms-flexbox;display:box;overflow:hidden;margin-top:4px;font-size:14px;line-height:25px;color:#5c5c5c;vertical-align:top;word-break:break-all;-webkit-box-orient:vertical;-webkit-line-clamp:4}
+.list_content .tit_post{display:block;font-weight:normal;font-size:23px;line-height:40px}
+.list_content .txt_post{display:-webkit-box;display:-ms-flexbox;display:box;overflow:hidden;margin-top:4px;font-size:13px;line-height:25px;color:#5c5c5c;vertical-align:top;word-break:break-all;-webkit-box-orient:vertical;-webkit-line-clamp:4}
 .list_content .txt_bar { margin:0 7px }
 .list_content .detail_info{margin-top:11px;font-size:12px;color:#aaa}
 .list_content .detail_info .link_cate{font-size:13px;text-decoration:none; color: darkgray;}
@@ -578,6 +578,19 @@ only screen and (max-width:738px){
 
 @media
 only screen and (min-width:738px) and (max-width:2000px){
+
+	.list_content .txt_post{
+		height: 45px;
+    text-overflow: ellipsis;
+		font-size: 15px;
+    margin-top: 10px;
+	}
+
+	.list_content {
+    padding-bottom: 30px;
+    padding-top: 30px;
+	}
+
 	/* 스킨 */
 	.wrap_skin {min-width:100%; padding-left:0}
 	.area_head {position:absolute;width:100%;margin-top:0;padding-top:100px}
@@ -658,5 +671,3 @@ only screen and (min-device-pixel-ratio : 1.5) and (max-width :738px),
 only screen and (min-resolution:2dppx) and (max-width :738px) {
 	.ico_skin {background-image:url(images/m640_ico_skin.png);-webkit-background-size:160px 100px;background-size:160px 100px}
 }
-
-
