@@ -1,4 +1,4 @@
-# ecsimsw
+# blog.ecsimsw
 <p align="center">
   <a>
     <img src="https://github.com/ecsimsw/blog-template/blob/main/images/Ash_Corphish.jpg" alt="Logo" width="1000">
