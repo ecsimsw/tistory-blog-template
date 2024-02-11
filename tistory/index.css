@@ -7,7 +7,7 @@
     left: 50%;
     width: 316px;
     margin-left: -158px;
-    bottom: 85px;
+    bottom: 75px;
     position: absolute;
     text-align: center;
     color: white;
@@ -600,7 +600,7 @@ only screen and (min-width:738px) and (max-width:2000px){
 	.area_head .area_profile .thumb_profile {margin-top:35px}
 	.area_head .area_profile .tit_post {margin-top:-6px}
 	.wrap_sub {position:relative;width:100%;max-height:500px}
-	.cont_sub {position:static;height:130px}
+	.cont_sub {position:static;height:110px}
 	.cont_sub .inner_sub {padding:0}
 	.area_search {right:0;top:0;}
 	.area_search .btn_search {width:90px;height:80px;margin-top:0}
@@ -671,3 +671,5 @@ only screen and (min-device-pixel-ratio : 1.5) and (max-width :738px),
 only screen and (min-resolution:2dppx) and (max-width :738px) {
 	.ico_skin {background-image:url(images/m640_ico_skin.png);-webkit-background-size:160px 100px;background-size:160px 100px}
 }
+
+
