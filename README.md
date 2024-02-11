@@ -1,14 +1,8 @@
-# I'm an HTML programmer
-<p align="center">
-  <a>
-    <img src="https://github.com/ecsimsw/blog-template/blob/main/images/Ash_Corphish.jpg" alt="Logo" width="1000">
-  </a>
-  <p align="center">
-    <a href="https://ecsimsw.tistory.com/">www.blog.ecsimsw.com</a>
-    |
-    <a href="https://github.com/ecsimsw">github.com/ecsimsw</a>
-  </p>
-</p>
+## Example
 
+### Main page
+![image](https://github.com/ecsimsw/blog.ecsimsw/assets/46060746/517aa13e-6094-4b29-939c-1f3eeb7119ea)
 
+### Content page
 
+![image](https://github.com/ecsimsw/blog.ecsimsw/assets/46060746/70351655-0ae9-4e3b-a922-ca37701e6b1f)
