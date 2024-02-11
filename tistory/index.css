@@ -362,7 +362,7 @@ html, body{height:100%;min-height:100%}
 .area_reply .list_reply li:hover .area_more .reply_layer { display:block }
 .area_reply .list_reply li:first-child .reply_layer { top:2px }
 .area_more .reply_layer { position:absolute; right:0px; top:25px }
-.area_more .reply_layer .link_reply { margin:0 2px;font-size:12px;color:darkgreen }
+.area_more .reply_layer .link_reply { margin:0 2px;font-size:12px;color:darkgray }
 .area_more .reply_layer .link_reply:hover { text-decoration: none}
 .area_more{display:none}
 
