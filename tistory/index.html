@@ -58,8 +58,6 @@
 				<s_search>
 					<form action="#" method="get" class="frm_search box_search" onsubmit="[##_search_onclick_submit_##]">
 						<fieldset>
-								
-							
 							<legend class="screen_out">검색하기</legend>
 							<label for="[##_search_name_##]" class="lab_search screen_out">Search</label>
 							<input type="text" name="[##_search_name_##]" id="[##_search_name_##]" class="tf_search" placeholder="Search" value="[##_search_text_##]" data-value="[##_search_text_##]">
@@ -107,7 +105,7 @@
 							<div class="area_sub">
 								<div role="navigation" class="area_navi">
 									[##_category_list_##]
-									<a href="[##_guestbook_link_##]" class="link_guestbook">Guestbook</a>
+									<!-- <a href="[##_guestbook_link_##]" class="link_guestbook">Guestbook</a> -->
 								</div>
 								<div class="wrap_etc">
 									<div class="col_aside left_side">
@@ -208,30 +206,26 @@
 		<strong class="screen_out">관리 메뉴</strong>
 						
 	<!--- 프로필 아래 아이콘 리스트 -------->
+
+	<a href="https://ecsimsw.tistory.com/" class="blog_name"> ecsimsw</a>
 									
-	<ul class="list_control" style="text-align: center;color: white;">
-		
-<div style="float:left; width : 33%">
-	<button type="button" style="color: white;padding-bottom: 70px;height: 110px;" onClick="location.href='https://github.com/ecsimsw'">
-    GitHub
-</button>
-	</div>
-		
-<div style="float:left; width : 33%">
-	<button type="button" style="color: white;padding-bottom: 70px;height: 110px;" onClick="location.href='https://ecsimsw.tistory.com/manage/newpost'">
-    Post
-</button>
-	</div>
-		
-<div style="float:left; width : 33%">
-	<button type="button" style="color: white;padding-bottom: 70px;height: 110px;" onClick="location.href='https://ecsimsw.tistory.com/manage'">
-     Setting
-</button>
-	</div>
-	
+	<ul class="list_control">
+		<div style="float:left; width : 33%">
+			<button type="button" style="color: white; font-size:18px; height: 30px;" onClick="location.href='https://github.com/ecsimsw'">
+				GitHub
+			</button>
+		</div>
+		<div style="float:left; width : 33%">
+			<button type="button" style="color: white; font-size:18px; height: 30px;" onClick="location.href='https://ecsimsw.tistory.com/manage/newpost'">
+				Post
+			</button>
+		</div>
+		<div style="float:left; width : 33%">
+			<button type="button" style="color: white; font-size:18px; height: 30px;" onClick="location.href='https://ecsimsw.tistory.com/manage'">
+				Setting
+			</button>
+		</div>
 	</ul>
-					
-				
 						</div>
 				</div>				
 				<div id="mArticle" class="article_skin">
@@ -268,10 +262,10 @@
 						<s_permalink_article_rep>
 							<h2 id="dkBody" class="screen_out">[##_article_rep_title_##] 본문</h2>
 							<div class="area_title">
-								<strong class="tit_category"><a href="[##_article_rep_category_link_##]">[##_article_rep_category_##]</a></strong>
+								<strong class="tit_category" style="display:none"><a href="[##_article_rep_category_link_##]">[##_article_rep_category_##]</a></strong>
 								<h3 class="tit_post">[##_article_rep_title_##]</h3>
-								<span class="info_post">[##_article_rep_author_##]
-                                <span class="txt_bar"></span>[##_article_rep_date_##]
+								<span class="info_post">[##_article_rep_author_##] 
+								<span class="txt_bar"></span>[##_article_rep_date_##] 
 								<s_ad_div>
 									<span class="txt_bar"></span><a href="[##_s_ad_m_link_##]" class="link_detail">수정</a>
 									<span class="txt_bar"></span><a href="#" onclick="[##_s_ad_s2_onclick_##]" class="link_detail">[##_s_ad_s1_label_##]</a>
@@ -292,6 +286,7 @@
 								</s_tag_label>
 							</div>
 
+							<!--
 							<s_article_related>
 								<div class="area_related">
 									<strong class="tit_related">'[##_article_rep_category_##]' Related Articles</strong>
@@ -314,7 +309,8 @@
 									<a href="[##_article_rep_category_link_##]" class="link_more">more</a>
 								</div>
 							</s_article_related>
-
+							-->
+							
 							<div class="area_reply">
 								<strong class="tit_reply" onclick="[##_article_rep_rp_link_##]"><s_rp_count>[##_article_rep_rp_cnt_##]</s_rp_count>  Comments</strong>
 								<s_rp>
