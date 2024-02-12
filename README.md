@@ -1,14 +1,19 @@
-## Example
+## Blog.ecsimsw
+
+`https://ecsimsw.tistory.com/`
 
 ### Main page
-![image](https://github.com/ecsimsw/blog.ecsimsw/assets/46060746/18e69a65-718e-44bb-9e03-7546e398cb31)
+<img width="936" alt="image" src="https://github.com/ecsimsw/blog.ecsimsw/assets/46060746/7805c241-cd28-41dc-92a0-6395af0b42bd">
 
 ### Content page
 
-![image](https://github.com/ecsimsw/blog.ecsimsw/assets/46060746/c753f859-01e7-4d9a-a6e9-ac2386ba8365)
-
+<img width="977" alt="image" src="https://github.com/ecsimsw/blog.ecsimsw/assets/46060746/599f1120-9ba8-43e2-bdbe-3e5b01b2d22f">
 
 ### Search bar
 
-![image](https://github.com/ecsimsw/blog.ecsimsw/assets/46060746/318aca47-f546-4edd-b135-90a5c8236285)
+<img width="972" alt="image" src="https://github.com/ecsimsw/blog.ecsimsw/assets/46060746/61cff81e-3032-4626-84b5-0e8a85baec99">
+
+### Category
+
+<img width="968" alt="image" src="https://github.com/ecsimsw/blog.ecsimsw/assets/46060746/10313c57-be9f-4295-88ad-7efdf22c1a21">
 
