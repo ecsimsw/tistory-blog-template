@@ -9,6 +9,10 @@
 
 <img width="977" alt="image" src="https://github.com/ecsimsw/blog.ecsimsw/assets/46060746/599f1120-9ba8-43e2-bdbe-3e5b01b2d22f">
 
+### Reply
+
+<img width="1011" alt="image" src="https://github.com/ecsimsw/blog.ecsimsw/assets/46060746/85a1c4b5-f1e6-4633-931c-35229e004bdc">
+
 ### Search bar
 
 <img width="972" alt="image" src="https://github.com/ecsimsw/blog.ecsimsw/assets/46060746/61cff81e-3032-4626-84b5-0e8a85baec99">
@@ -16,4 +20,6 @@
 ### Category
 
 <img width="968" alt="image" src="https://github.com/ecsimsw/blog.ecsimsw/assets/46060746/10313c57-be9f-4295-88ad-7efdf22c1a21">
+
+
 
