@@ -7,7 +7,8 @@
 
 ### Content page
 
-<img width="977" alt="image" src="https://github.com/ecsimsw/blog.ecsimsw/assets/46060746/599f1120-9ba8-43e2-bdbe-3e5b01b2d22f">
+![image](https://github.com/ecsimsw/blog.ecsimsw/assets/46060746/8abe33ff-09dd-4ed1-8e87-11e07a85b3a3)
+
 
 ### Reply
 
@@ -19,7 +20,8 @@
 
 ### Category
 
-<img width="968" alt="image" src="https://github.com/ecsimsw/blog.ecsimsw/assets/46060746/10313c57-be9f-4295-88ad-7efdf22c1a21">
+![image](https://github.com/ecsimsw/blog.ecsimsw/assets/46060746/63908518-ad0b-4dcb-a3cd-9c20af08b2f5)
+
 
 
 
