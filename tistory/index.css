@@ -105,6 +105,10 @@
 	display: none !important;
 }
 
+.article_skin .area_paging {
+	margin-top: 55px !important;
+}
+
 /* .rp_admin > .reply_content > .tit_nickname > a {
 	display: none !important;
 } */
@@ -121,7 +125,7 @@ button {border:0 none;background-color:transparent;cursor:pointer}
 body {background:#fff;-webkit-text-size-adjust:none}
 body,th,td,input,select,textarea,button {font-size:19px;line-height:1.5;font-family: sans-serif; color:#666}
 //body,th,td,input,select,textarea,button {font-size:17px;line-height:1.7; color:#666}
-a {color:#333;text-decoration:none}
+a {color:#222;text-decoration:none}
 /* a:active, a:hover {text-decoration:underline} */
 a:active {background-color:transparent}z
 address,caption,cite,code,dfn,em,var {font-style:normal;font-weight:normal}
@@ -238,7 +242,7 @@ html, body{height:100%;min-height:100%}
 .box_aside{position:relative;margin-bottom:39px}
 .tit_aside{display:block;margin-bottom:7px;color:white}
 .list_board li{padding:3px 0}
-.list_board .link_board{display:block;overflow:hidden;font-size:12px;line-height:19px;color:#a7a7a7;white-space:nowrap;text-overflow:ellipsis}
+.list_board .link_board{display:block;overflow:hidden;font-size:13px;line-height:19px;color:#a7a7a7;white-space:nowrap;text-overflow:ellipsis}
 .box_aside .list_tag{overflow:hidden;padding-top:7px}
 .box_aside .list_tag li{float:left}
 .box_aside .list_tag .link_tag{display:block;height:27px;margin:0 8px 7px 0;padding:0 10px;border:1px solid #525252;border-radius:15px;font-size:11px;line-height:27px;color:#a7a7a7;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;max-width:65px}
@@ -427,7 +431,7 @@ html, body{height:100%;min-height:100%}
 .list_content::after { content:''; clear:both; display:block }
 .list_content .thumbnail_post { display:none; float:right; width:150px; height:150px; margin:6px 0 5px 30px }
 .list_content .link_post{display:block;overflow:hidden;text-decoration:none}
-.list_content .link_post:hover .tit_post {color: darkgreen}
+.list_content .link_post:hover .tit_post {color: dimgray}
 .list_content .tit_post{display:block;font-weight:normal;font-size:23px;line-height:40px}
 .list_content .txt_post{display:-webkit-box;display:-ms-flexbox;display:box;overflow:hidden;margin-top:4px;font-size:13px;line-height:25px;color:#5c5c5c;vertical-align:top;word-break:break-all;-webkit-box-orient:vertical;-webkit-line-clamp:4}
 .list_content .txt_bar { margin:0 7px }
