@@ -158,8 +158,8 @@ html, body{height:100%;min-height:100%}
 .article_skin{width:90%; max-width:1000px; min-height:858px;margin:0 auto;padding:96px 42px 100px}
 #tt-body-index .article_skin { padding-top:70px }
 .article_skin .tit_skin{
-	/* padding-bottom:15px;  */
-	padding-top:15px;
+	/* padding-bottom:5px;  */
+	padding-top:10px;
 	color: black; 
 	/* border-bottom:1px solid #efefef; */
 	font-weight:normal;
@@ -435,8 +435,9 @@ html, body{height:100%;min-height:100%}
 .list_content .tit_post{display:block;font-weight:normal;font-size:23px;line-height:40px}
 .list_content .txt_post{display:-webkit-box;display:-ms-flexbox;display:box;overflow:hidden;margin-top:4px;font-size:13px;line-height:25px;color:#5c5c5c;vertical-align:top;word-break:break-all;-webkit-box-orient:vertical;-webkit-line-clamp:4}
 .list_content .txt_bar { margin:0 7px }
-.list_content .detail_info{margin-top:11px;font-size:12px;color:#aaa}
-.list_content .detail_info .link_cate{font-size:13px;text-decoration:none; color: darkgray;}
+.list_content .detail_info{ margin-top:7px;font-size:14px;color:#aaa}
+.list_content .detail_info .link_cate{ text-decoration:none; color: darkgray;}
+/* .list_content .detail_info .txt_bar{ } */
 
 /* 태그 */
 #tt-body-tag .list_tag{overflow:hidden;margin-top:30px}
@@ -660,11 +661,12 @@ only screen and (min-width:738px) and (max-width:2000px){
     text-overflow: ellipsis;
 		font-size: 15px;
     margin-top: 10px;
+		display: none;
 	}
 
 	.list_content {
-    padding-bottom: 30px;
-    padding-top: 30px;
+    padding-bottom: 27px;
+    padding-top: 27px;
 	}
 	
 	.area_search .btn_search {
@@ -747,10 +749,10 @@ only screen and (min-width:738px) and (max-width:2000px){
 	.list_control .link_memo {background-position:-50px -160px}
 	.list_control .link_rss {background-position:-100px -160px}
 	.list_control .link_manage {background-position:-150px -160px}
-	.list_content .detail_info{display:none; margin-top:11px;font-size:12px;color:#aaa}
+	/* .list_content .detail_info{margin-top:11px;font-size:15px;color:#aaa} */
 
-	.article_skin {width:auto; max-width:850px; padding:57px 34px 100px}
-	#tt-body-index .article_skin { padding-top:27px }
+	.article_skin {width:auto; max-width:800px; padding:57px 34px 100px}
+	#tt-body-index .article_skin { padding-top:27px; padding-left: 80px;}
 	#tt-body-tag .article_skin,
 	#tt-body-guestbook .article_skin { padding-top: 57px; }
 	#tt-body-page .article_skin { padding-top:56px }
@@ -779,5 +781,4 @@ only screen and (min-device-pixel-ratio : 1.5) and (max-width :738px),
 only screen and (min-resolution:2dppx) and (max-width :738px) {
 	.ico_skin {background-image:url(images/m640_ico_skin.png);-webkit-background-size:160px 100px;background-size:160px 100px}
 }
-
 
