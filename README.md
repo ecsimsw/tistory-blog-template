@@ -3,7 +3,8 @@
 `https://ecsimsw.tistory.com/`
 
 ### Main page
-<img width="1148" alt="image" src="https://github.com/ecsimsw/blog.ecsimsw/assets/46060746/0f4ebaee-d8ad-4caa-9890-dfcc0d5754df">
+<img width="1017" alt="image" src="https://github.com/ecsimsw/blog.ecsimsw/assets/46060746/bdfa36f3-1750-4656-a23a-a0de2f58a1ac">
+
 
 ### Content page
 
