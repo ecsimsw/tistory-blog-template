@@ -613,7 +613,7 @@ only screen and (max-width:738px){
 	.list_content .thumbnail_post,
 	.list_content .thumbnail_post img { width:80px; height:80px }
 	.list_content .tit_post {font-size:17px;line-height:21px;color:#222;font-family:applesdgothicneo-light;display: -webkit-box;-webkit-line-clamp:2;overflow:hidden;text-overflow:ellipsis;word-break:break-all;-webkit-box-orient:vertical}
-	.list_content .txt_post {font-size:14px;line-height:19px;font-family:applesdgothicneo-ultralight;-webkit-line-clamp:2;}
+	.list_content .txt_post { display:none; font-size:14px;line-height:19px;font-family:applesdgothicneo-ultralight;-webkit-line-clamp:2;}
 	.list_content .detail_info {color:#a7a7a7; font-family:applesdgothicneo-ultralight; margin-top:4px}
 	.list_content .detail_info .txt_bar { margin:0 2px }
 	.list_content .detail_info .txt_date { font-size:13px }
