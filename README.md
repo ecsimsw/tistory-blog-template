@@ -3,12 +3,11 @@
 `https://ecsimsw.tistory.com/`
 
 ### Main page
-![image](https://github.com/ecsimsw/blog.ecsimsw/assets/46060746/958688c0-17bc-42af-b5e7-ddd4c78f4043)
+<img width="1148" alt="image" src="https://github.com/ecsimsw/blog.ecsimsw/assets/46060746/0f4ebaee-d8ad-4caa-9890-dfcc0d5754df">
 
 ### Content page
 
-![image](https://github.com/ecsimsw/blog.ecsimsw/assets/46060746/8abe33ff-09dd-4ed1-8e87-11e07a85b3a3)
-
+<img width="1153" alt="image" src="https://github.com/ecsimsw/blog.ecsimsw/assets/46060746/de4fb75a-9f05-4d53-bed0-a1072d5177ea">
 
 ### Reply
 
