@@ -27,6 +27,14 @@
 	border-bottom: 0.01px solid gainsboro;
 }
 
+.mArticle > a{
+  text-decoration: none;
+}
+
+.contents_style a {
+ text-decoration: underline;
+}
+
 .navi_on .ico_search {
 	  display: none;
 }
@@ -665,8 +673,8 @@ only screen and (min-width:738px) and (max-width:2000px){
 	}
 
 	.list_content {
-    padding-bottom: 27px;
-    padding-top: 27px;
+    padding-bottom: 24px;
+    padding-top: 24px;
 	}
 	
 	.area_search .btn_search {
