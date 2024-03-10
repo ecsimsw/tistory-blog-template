@@ -443,7 +443,7 @@ html, body{height:100%;min-height:100%}
 .list_content .tit_post{display:block;font-weight:normal;font-size:23px;line-height:40px}
 .list_content .txt_post{display:-webkit-box;display:-ms-flexbox;display:box;overflow:hidden;margin-top:4px;font-size:13px;line-height:25px;color:#5c5c5c;vertical-align:top;word-break:break-all;-webkit-box-orient:vertical;-webkit-line-clamp:4}
 .list_content .txt_bar { margin:0 7px }
-.list_content .detail_info{ margin-top:6px;font-size:14px;color:#aaa}
+.list_content .detail_info{ display:none; margin-top:6px;font-size:14px;color:#aaa}
 .list_content .detail_info .link_cate{ text-decoration:none; color: darkgray;}
 /* .list_content .detail_info .txt_bar{ } */
 
