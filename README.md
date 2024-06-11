@@ -1,10 +1,11 @@
 ## Blog.ecsimsw
 
+티스토리 스킨 편집 에셋 관리
+
 `https://ecsimsw.tistory.com/`
 
 ### Main page
-<img width="1017" alt="image" src="https://github.com/ecsimsw/blog.ecsimsw/assets/46060746/bdfa36f3-1750-4656-a23a-a0de2f58a1ac">
-
+<img width="1438" alt="image" src="https://github.com/ecsimsw/tistory-blog-template/assets/46060746/1c0b99a9-c735-475d-b3bd-99f859d9e7ef">
 
 ### Content page
 
