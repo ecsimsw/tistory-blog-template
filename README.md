@@ -10,7 +10,8 @@
 
 ### Content page
 
-<img width="1153" alt="image" src="https://github.com/ecsimsw/blog.ecsimsw/assets/46060746/de4fb75a-9f05-4d53-bed0-a1072d5177ea">
+<img width="1427" alt="image" src="https://github.com/user-attachments/assets/7c46c36b-7f82-4a6f-a730-5efe74686ea1" />
+
 
 ### Reply
 
