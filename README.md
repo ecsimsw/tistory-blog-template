@@ -5,7 +5,8 @@
 `https://ecsimsw.tistory.com/`
 
 ### Main page
-<img width="1438" alt="image" src="https://github.com/ecsimsw/tistory-blog-template/assets/46060746/1c0b99a9-c735-475d-b3bd-99f859d9e7ef">
+<img width="1429" alt="image" src="https://github.com/user-attachments/assets/76088aea-d0e8-40b4-aad0-0f38070bed37" />
+
 
 ### Content page
 
