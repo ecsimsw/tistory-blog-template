@@ -71,16 +71,16 @@
 }
 
 .another_category {
-	margin-top: 40px !important;
-	margin-bottom: 40px !important;
+	margin-top: 40px;
+	margin-bottom: 40px;
 }
 
 .another_category th a {
-	font-size: 15px !important;
+	font-size: 15px;
 }
 
 .another_category td {
-	display: none !important;
+	display: none;
 }
 
 .search_on .blog_name {
@@ -496,13 +496,13 @@ html, body{height:100%;min-height:100%}
 /* mobile size */
 
 @media
-only screen and (max-width:738px){
+only screen and (max-width:500px){
   .article_skin .area_paging {
 	  margin-top: 30px !important;
 	  margin-bottom: 25px !important;
 	}
 	.after_paging {
-		height: 30px;
+		height: 50px;
 	}
 	.area_search {
 		display: none;
@@ -514,7 +514,10 @@ only screen and (max-width:738px){
 	  font-size: 20px !important;
 		font-weight: bolder;
   }
-
+  .list_content .tit_post {
+		font-size: 16px;
+		color:#333333;
+  } 
 	.area_view h4 {
 		font-size: 17px;
 		margin-bottom: 12px;
@@ -540,8 +543,12 @@ only screen and (max-width:738px){
 		display: none !important;
 	}
 
-	.btn_cate {
-		display: none !important;
+	.cont_sub .area_sub {
+		position: unset !important;
+	}
+
+	.navi_on .wrap_sub .btn_close {
+		display: none;
 	}
 
 	#tt-body-page .article_skin {
@@ -552,6 +559,21 @@ only screen and (max-width:738px){
 		padding-top: 0px !important;
     height: 0px !important;
     width: 0px !important;
+	}
+	.area_reply {
+		display: none;
+	}
+
+	.after_reply {
+		height: 30px;
+	}
+
+	.another_category {
+		margin-top: 20px !important;
+	}
+
+	.another_category th a {
+		font-size: 13px;
 	}
 	
 	.ico_skin {background:url(images/m320_ico_skin.png) 0 0 no-repeat}
@@ -692,7 +714,7 @@ only screen and (max-width:738px){
 	.list_content .thumbnail_post { margin-top:1px; margin-left:14px }
 	.list_content .thumbnail_post,
 	.list_content .thumbnail_post img { width:80px; height:80px }
-	.list_content .tit_post {font-size:17px;line-height:21px;color:#222;font-family:applesdgothicneo-light;display: -webkit-box;-webkit-line-clamp:2;overflow:hidden;text-overflow:ellipsis;word-break:break-all;-webkit-box-orient:vertical}
+	.list_content .tit_post {line-height:21px; font-family:applesdgothicneo-light;display: -webkit-box;-webkit-line-clamp:2;overflow:hidden;text-overflow:ellipsis;word-break:break-all;-webkit-box-orient:vertical}
 	.list_content .txt_post { display:none; font-size:14px;line-height:19px;font-family:applesdgothicneo-ultralight;-webkit-line-clamp:2;}
 	.list_content .detail_info {color:#a7a7a7; font-family:applesdgothicneo-ultralight; margin-top:4px}
 	.list_content .detail_info .txt_bar { margin:0 2px }
@@ -726,7 +748,7 @@ only screen and (max-width:738px){
 /* web size */
 
 @media
-only screen and (min-width:738px) and (max-width:2000000px){
+only screen and (min-width:500px) and (max-width:2000000px){
 
 	.area_title .tit_post {
 		padding:5px 0 5px;
@@ -867,9 +889,9 @@ only screen and (min-width:738px) and (max-width:2000000px){
     /* 메뉴바 */
     #tistorytoolbarid { display:none }
 }
-@media only screen and (-webkit-min-device-pixel-ratio : 1.5) and (max-width :738px),
-only screen and (min-device-pixel-ratio : 1.5) and (max-width :738px),
-only screen and (min-resolution:2dppx) and (max-width :738px) {
+@media only screen and (-webkit-min-device-pixel-ratio : 1.5) and (max-width :500px),
+only screen and (min-device-pixel-ratio : 1.5) and (max-width :500px),
+only screen and (min-resolution:2dppx) and (max-width :500px) {
 	.ico_skin {background-image:url(images/m640_ico_skin.png);-webkit-background-size:160px 100px;background-size:160px 100px}
 }
 
