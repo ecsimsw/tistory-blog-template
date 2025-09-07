@@ -15,7 +15,7 @@
 }
 
 .area_title .tit_post {
-	font-size: 30px !important;
+	font-size: 30px;
 }
 
 .area_title {
@@ -113,9 +113,10 @@
 	display: none !important;
 }
 
-.article_skin .area_paging {
+/* .article_skin .area_paging {
 	margin-top: 55px !important;
-}
+	margin-bottom: 25px !important;
+} */
 
 /* .rp_admin > .reply_content > .tit_nickname > a {
 	display: none !important;
@@ -305,7 +306,7 @@ html, body{height:100%;min-height:100%}
 /* 뷰 상단 */
 .area_title{margin:0 0 30px;padding-bottom:15px;border-bottom:1px solid #efefef}
 .area_title .tit_category a {font-weight:700;font-size:16px;color:darkgreen}
-.area_title .tit_post{padding:5px 0 10px;font-weight:normal;font-size:34px;line-height:43px;color:#222}
+.area_title .tit_post{padding:5px 0 5px;font-weight:normal;font-size:27px;line-height:43px;color:#222}
 .area_title .info_post,
 .area_title .info_post a {font-size:13px;color:#a7a7a7}
 .area_title .info_post .txt_bar { margin:0 9px 0 5px }
@@ -313,7 +314,7 @@ html, body{height:100%;min-height:100%}
 
 /* ------------ 글자 크기 (본문) -------------- */
 
-.area_view p {font-size:16.5px;line-height:32px; margin:0 auto 28px; color:#333;}
+.area_view p {font-size:16px;line-height:30px; margin:0 auto 28px; color:#333;}
 .area_view code{ font-size: 14px; font-family: Menlo,Consolas,Monaco,monospace; }
 .area_view p code { padding:2px 5px; border-radius:3px; background:#efefef; margin:0 2px; border:1px solid #e0e0e0 }
 .area_view a {color:royalblue}
@@ -323,7 +324,7 @@ html, body{height:100%;min-height:100%}
 
 /* ------------ 글자 크기 (부제) -------------- */
 
-.area_view h4 { font-size:18px; line-height:30px;  margin-top:20px; margin-bottom:24px;}
+.area_view h4 { font-size:20px; line-height:30px;  margin-top:20px; margin-bottom:24px;}
 .area_view ul,
 .area_view ol { margin: 0 auto 32px; padding: 0 0 0 10px; }
 .area_view ul li,
@@ -339,7 +340,7 @@ html, body{height:100%;min-height:100%}
 .area_view blockquote ul:last-child,
 .area_view blockquote p:last-child { margin-bottom:0 }
 .area_view table { max-width:100% }
-.area_view pre { margin-top:6px; color:#555; background-color:#FAFAFA; padding:16px; word-wrap: break-word; font-family: Menlo,Consolas,Monaco,monospace; font-size:16px; line-height:27px; overflow-x:auto; }
+.area_view pre { margin-top:18px; color:#555; background-color:#FAFAFA; padding:16px; word-wrap: break-word; font-family: Menlo,Consolas,Monaco,monospace; font-size:16px; line-height:27px; overflow-x:auto; }
 .area_view iframe { max-width:100%; display:block; margin:0 auto 20px }
 .area_view figure { margin:0 }
 .area_view img { max-width:100%; height:auto }
@@ -477,7 +478,7 @@ html, body{height:100%;min-height:100%}
 #tt-body-guestbook .article_skin .tit_skin { border:0 }
 
 /* 페이징 */
-.article_skin .area_paging{height:30px;margin-top:26px;text-align:center}
+.article_skin .area_paging{height:30px; margin-top:55px; text-align:center}
 .area_paging .inner_paging{display:inline-block;overflow:hidden}
 .area_paging .ico_skin{width:6px;height:10px}
 .area_paging .btn_prev{float:left;margin-right:18px;line-height:30px;color:#5c5c5c}
@@ -492,9 +493,67 @@ html, body{height:100%;min-height:100%}
 .area_paging .interword {float:left;min-width:10px;height:30px;margin:0 4px;padding:0 10px;line-height:30px;color:#5c5c5c}
 .area_paging .link_page .selected {border-radius:30px;background-color:black;color:#fff}
 
+/* mobile size */
 
 @media
 only screen and (max-width:738px){
+  .article_skin .area_paging {
+	  margin-top: 30px !important;
+	  margin-bottom: 25px !important;
+	}
+	.after_paging {
+		height: 30px;
+	}
+	.area_search {
+		display: none;
+	}
+	.navi_on .list_control {
+		display: none !important;
+	}
+	.area_title .tit_post {
+	  font-size: 20px !important;
+		font-weight: bolder;
+  }
+
+	.area_view h4 {
+		font-size: 17px;
+		margin-bottom: 12px;
+	}
+
+	.area_reply .tit_nickname {
+		max-width:90px;
+	}
+
+	.area_view p {
+		font-size: 15px;
+	}
+	
+	figcaption {
+		font-size: 12px !important;
+	}
+
+	.area_view code {
+		font-size: 11px !important;
+	}
+
+  .area_title .info_post {
+		display: none !important;
+	}
+
+	.btn_cate {
+		display: none !important;
+	}
+
+	#tt-body-page .article_skin {
+		margin-top: 0px;
+	}
+
+	#dkHead {
+		padding-top: 0px !important;
+    height: 0px !important;
+    width: 0px !important;
+	}
+	
 	.ico_skin {background:url(images/m320_ico_skin.png) 0 0 no-repeat}
 	/* 스킨 */
 	.wrap_skin {min-width:100%;padding-left:0}
@@ -549,11 +608,9 @@ only screen and (max-width:738px){
 	.area_title .info_post .txt_bar { margin:0 6px 0 4px}
 	.area_view { margin:0 15px;font-size:15px;line-height:24px;color:#333;}
 
-	.area_view p {  }
 	.area_view h1,
 	.area_view h2 {font-size:30px;}
-	.area_view h3 {font-size:25px;},
-	.area_view h4 { font-size:20px; }
+	.area_view h3 {font-size:25px;}
 
 	.protected_form { padding:15px 0 50px }
 
@@ -641,7 +698,6 @@ only screen and (max-width:738px){
 	.list_content .detail_info .txt_bar { margin:0 2px }
 	.list_content .detail_info .txt_date { font-size:13px }
 
-	#tt-body-page .article_skin { margin-top:40px }
 	#tt-body-tag .article_skin,
 	#tt-body-guestbook .article_skin,
 	#tt-body-index .article_skin { padding-top:46px }
@@ -667,17 +723,18 @@ only screen and (max-width:738px){
 	.area_foot { height:40px; line-height:38px; }
 }
 
-@media
-only screen and (max-width:738px){
-	.area_reply .tit_nickname {max-width:90px;}
-	
-	.area_view h4 { font-size:20px; line-height:24px;  margin-top:30px; margin-bottom:30px;}
-	
-	.area_view p {font-size:17px;line-height:32px; margin:0 auto 28px; color:#555;}
-}
+/* web size */
 
 @media
 only screen and (min-width:738px) and (max-width:2000000px){
+
+	.area_title .tit_post {
+		padding:5px 0 5px;
+		font-weight:normal;
+		font-size:27px;
+		line-height:43px;
+		color:#222;
+	}
 
 	.list_content .txt_post{
 		height: 45px;
@@ -698,6 +755,17 @@ only screen and (min-width:738px) and (max-width:2000000px){
 
 	.area_head .btn_cate {
 		margin-top: 16px;
+	}
+
+	.area_view p {
+		font-size:16.5px;
+		line-height:33px; 
+		margin:0 auto 28px; 
+		color:#333;
+	}
+	
+	.content {
+		font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Apple SD Gothic Neo", Arial, sans-serif;
 	}
 
 	/* 스킨 */
@@ -774,7 +842,7 @@ only screen and (min-width:738px) and (max-width:2000000px){
 	.list_control .link_manage {background-position:-150px -160px}
 	/* .list_content .detail_info{margin-top:11px;font-size:15px;color:#aaa} */
 
-	.article_skin {width:auto; max-width:800px; padding:57px 34px 100px}
+	.article_skin {width:auto; max-width:900px; padding:57px 34px 100px}
 	#tt-body-index .article_skin { padding-top:27px; padding-left: 80px;}
 	#tt-body-tag .article_skin,
 	#tt-body-guestbook .article_skin { padding-top: 57px; }
