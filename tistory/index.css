@@ -758,7 +758,7 @@ only screen and (min-width:738px) and (max-width:2000000px){
 	}
 
 	.area_view p {
-		font-size:16.5px;
+		font-size:16px;
 		line-height:33px; 
 		margin:0 auto 28px; 
 		color:#333;
@@ -842,7 +842,7 @@ only screen and (min-width:738px) and (max-width:2000000px){
 	.list_control .link_manage {background-position:-150px -160px}
 	/* .list_content .detail_info{margin-top:11px;font-size:15px;color:#aaa} */
 
-	.article_skin {width:auto; max-width:900px; padding:57px 34px 100px}
+	.article_skin {width:auto; max-width:800px; padding:57px 34px 100px}
 	#tt-body-index .article_skin { padding-top:27px; padding-left: 80px;}
 	#tt-body-tag .article_skin,
 	#tt-body-guestbook .article_skin { padding-top: 57px; }
