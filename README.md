@@ -26,5 +26,11 @@
 ![image](https://github.com/ecsimsw/blog.ecsimsw/assets/46060746/63908518-ad0b-4dcb-a3cd-9c20af08b2f5)
 
 
+### Mobile size
 
+<img width="329" alt="image" src="https://github.com/user-attachments/assets/10bf50ae-303f-43c0-9432-d3d662270a62" />   
+
+<img width="329" alt="image" src="https://github.com/user-attachments/assets/18a35a65-4237-431c-ba85-624cbdd6c6fb" />    
+
+<img width="329" alt="image" src="https://github.com/user-attachments/assets/97e89281-ee04-4e0a-ad95-8aef2b85a003" />    
 
