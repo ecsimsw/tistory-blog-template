@@ -515,9 +515,18 @@ only screen and (max-width:500px){
 		font-weight: bolder;
   }
   .list_content .tit_post {
-		font-size: 16px;
-		color:#333333;
+		font-size: 14px;
+		color:black;
   } 
+
+	.detail_info{
+		display: none;
+	}
+
+ .list_content {
+	  border-bottom: 0.5px solid #efefef;
+ }
+
 	.area_view h4 {
 		font-size: 17px;
 		margin-bottom: 12px;
@@ -528,8 +537,9 @@ only screen and (max-width:500px){
 	}
 
 	.area_view p {
-		font-size: 15px;
+		font-size: 14px;
 		line-height: 27px;
+		-webkit-font-smoothing: antialiased;
 	}
 	
 	figcaption {
@@ -542,14 +552,27 @@ only screen and (max-width:500px){
 		padding-top: 0px;
 		padding-left: 0px;
 		padding-right: 0px;
+		line-height: 20px;
+		-webkit-font-smoothing: antialiased;
 	}
 
   .area_title .info_post {
 		display: none !important;
 	}
 
+	.area_view pre {
+		margin-top: 20px;
+		-webkit-font-smoothing: antialiased;
+		padding-top: 10px;
+    padding-bottom: 10px;
+	}
+
 	.cont_sub .area_sub {
-		position: unset !important;
+		position: fixed !important;
+	}
+
+	.navi_on .cont_sub .area_sub {
+		top : 10px
 	}
 
 	.navi_on .wrap_sub .btn_close {
@@ -579,6 +602,20 @@ only screen and (max-width:500px){
 
 	.another_category th a {
 		font-size: 13px;
+	}
+
+  .navi_on .tt_category .sub_category_list .link_sub_item {
+		font-size: 14px !important;
+		padding-bottom: 1px !important;
+	}
+
+	.navi_on .tt_category .category_list .link_item {
+		font-size: 14px !important;
+		padding: 2px 0 !important;
+	}
+
+	.link_tit {
+		font-size: 14px !important;
 	}
 	
 	.ico_skin {background:url(images/m320_ico_skin.png) 0 0 no-repeat}
@@ -614,7 +651,7 @@ only screen and (max-width:500px){
 	.navi_on .area_search {display:none}
 	.navi_on .wrap_sub {position:absolute;left:0;top:0;z-index:100;width:100%;height:100%;display:block}
 	.navi_on .cont_sub {background:#222;opacity:0.9;filter:alpha(Opacity=90);position:fixed}
-	.navi_on .cont_sub .area_sub { top:73px; bottom:0; border-top:1px solid rgba(255,255,255,0.05); }
+	.navi_on .cont_sub .area_sub { top:5px; bottom:0; border-top:1px solid rgba(255,255,255,0.05); }
 	.navi_on .wrap_sub .btn_close {right:20px;top:28px;width:18px;height:18px;background-position:-110px 0;position:fixed}
 	.navi_on .area_navi {width:100%;-webkit-box-sizing:border-box;box-sizing:border-box}
 	.navi_on .area_navi .tt_category { padding:11px 20px 16px; }
@@ -789,10 +826,14 @@ only screen and (min-width:500px) and (max-width:2000000px){
 		line-height:33px; 
 		margin:0 auto 28px; 
 		color:#333;
+		-webkit-font-smoothing: antialiased;
 	}
 
 	.area_view pre {
-		margin-top: 2px;
+		margin-top: 27px;
+		-webkit-font-smoothing: antialiased;
+		padding-top: 10px;
+    padding-bottom: 10px;
 	}
 	
 	.content {
@@ -801,6 +842,15 @@ only screen and (min-width:500px) and (max-width:2000000px){
 
 	.imageblock {
 		margin-bottom: 0px !important;
+	}
+
+
+	.cont_sub .area_sub {
+		position: fixed !important;
+	}
+
+	.navi_on .cont_sub .area_sub {
+		top: 0px;
 	}
 
 	/* 스킨 */
