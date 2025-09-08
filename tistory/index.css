@@ -835,6 +835,10 @@ only screen and (min-width:500px) and (max-width:2000000px){
 		padding-top: 10px;
     padding-bottom: 10px;
 	}
+
+	.wrap_sub .btn_close {
+    top: 15px !important;
+	}
 	
 	.content {
 		font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Apple SD Gothic Neo", Arial, sans-serif;
@@ -844,13 +848,26 @@ only screen and (min-width:500px) and (max-width:2000000px){
 		margin-bottom: 0px !important;
 	}
 
-
-	.cont_sub .area_sub {
-		position: fixed !important;
+	.tt_category .sub_category_list .link_sub_item {
+		line-height: 37px !important;
 	}
 
-	.navi_on .cont_sub .area_sub {
-		top: 0px;
+	.navi_on .cont_sub .area_sub { 
+		top:50px; 
+		bottom:0; 
+		border-top:0px solid rgba(255,255,255,0.05); 
+	}
+
+	.list_board .link_board {
+		line-height: 30px;
+	}
+
+	    
+	.navi_on .list_control {
+		left:50%;
+		width:365px;
+		margin-left:13px;
+		text-align: center;
 	}
 
 	/* 스킨 */
@@ -913,7 +930,6 @@ only screen and (min-width:500px) and (max-width:2000000px){
 	.navi_on .wrap_etc .col_aside {float:none;width:auto;padding:0 48px}
 	.navi_on .area_navi {width:50%;-webkit-box-sizing:border-box;box-sizing:border-box}
 	.navi_on .wrap_etc {width:50%}
-	.navi_on .list_control {left:42px;width:365px;margin-left:0}
 	.navi_on .list_control .ico_skin {width:58px}
 	.navi_on .article_skin { display:none }
 
